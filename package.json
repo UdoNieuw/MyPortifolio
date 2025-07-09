@@ -16,8 +16,5 @@
     "url": "https://github.com/UdoNieuw/MyPortifolio/issues"
   },
   "homepage": "https://github.com/UdoNieuw/MyPortifolio#readme",
-  "description": "",
-  "dependencies": {
-    "bootstrap": "^5.3.7"
-  }
+  "description": ""
 }
