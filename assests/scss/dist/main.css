@@ -13036,7 +13036,7 @@ header {
 }
 header .logo {
   font-size: 1.5rem;
-  color: #ffffff;
+  color: #950606;
   text-decoration: none;
   font-weight: bold;
 }
@@ -13046,8 +13046,8 @@ header nav a {
   text-decoration: none;
 }
 header nav a:hover, header nav a.active {
-  color: #ffffff;
-  border-bottom: 2px solid #ffffff;
+  color: #950606;
+  border-bottom: 2px solid #950606;
 }
 
 .hero-content {
@@ -13060,10 +13060,10 @@ header nav a:hover, header nav a.active {
 }
 .hero-content h1, .hero-content .h1 {
   font-size: 3rem;
-  color: #ffffff;
+  color: #950606;
 }
 .hero-content span {
-  color: #ffffff;
+  color: #950606;
   font-weight: bold;
 }
 .hero-content p {
@@ -13079,19 +13079,19 @@ header nav a:hover, header nav a.active {
   margin: 0 0.5rem;
 }
 .hero-content .social-icons a:hover {
-  color: #ffffff;
+  color: #950606;
 }
 .hero-content .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: #ffffff;
+  background: #950606;
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
   transition: background 0.3s;
 }
 .hero-content .btn:hover {
-  background: #e6e6e6;
+  background: #640404;
 }
 
 .projects-content {
@@ -13099,7 +13099,7 @@ header nav a:hover, header nav a.active {
   text-align: center;
 }
 .projects-content h2, .projects-content .h2 {
-  color: #ffffff;
+  color: #950606;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
