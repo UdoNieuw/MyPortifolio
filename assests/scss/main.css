@@ -11990,13 +11990,13 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
   padding: 1rem 2rem;
   background: #111;
 }
 header .logo {
   font-size: 1.5rem;
-  color: #b30000;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -12006,8 +12006,8 @@ header nav a {
   text-decoration: none;
 }
 header nav a:hover, header nav a.active {
-  color: #b30000;
-  border-bottom: 2px solid #b30000;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 
 .hero-content {
@@ -12020,10 +12020,10 @@ header nav a:hover, header nav a.active {
 }
 .hero-content h1, .hero-content .h1 {
   font-size: 3rem;
-  color: #b30000;
+  color: #ffffff;
 }
 .hero-content span {
-  color: #b30000;
+  color: #ffffff;
   font-weight: bold;
 }
 .hero-content p {
@@ -12039,19 +12039,19 @@ header nav a:hover, header nav a.active {
   margin: 0 0.5rem;
 }
 .hero-content .social-icons a:hover {
-  color: #b30000;
+  color: #ffffff;
 }
 .hero-content .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: #b30000;
+  background: #ffffff;
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
   transition: background 0.3s;
 }
 .hero-content .btn:hover {
-  background: maroon;
+  background: #e6e6e6;
 }
 
 .projects-content {
@@ -12059,7 +12059,7 @@ header nav a:hover, header nav a.active {
   text-align: center;
 }
 .projects-content h2, .projects-content .h2 {
-  color: #b30000;
+  color: #ffffff;
   font-size: 2rem;
   margin-bottom: 1rem;
 }/*# sourceMappingURL=main.css.map */
