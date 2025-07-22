@@ -12083,6 +12083,8 @@ header nav a:hover, header nav a.active {
   justify-content: center;
   text-align: center;
   border-radius: 3rem;
+  gap: 2rem;
+  padding: 5rem;
 }
 .projects-content .project-card:hover {
   transform: translateY(-5px);
