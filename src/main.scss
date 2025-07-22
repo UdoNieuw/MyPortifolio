@@ -119,8 +119,22 @@ header {
         font-size: 2rem;
         margin-bottom: 1rem;
     }
+
+    .projects-box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* ?? */
+        gap: 2rem;
+    }
+
+    .project-card {
+        background-color: red;
+        border-radius: 10px;
+        padding: 1.5rem;
+        width: 300px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s;
+        
+    }
 }
 
-.projects-box{
-    
-}
