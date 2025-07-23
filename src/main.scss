@@ -151,11 +151,19 @@ header {
             transform: scale(1.02);
         }
 
-/*         img{
+        img{
             max-width: 300px;
             border-radius: 2em;
             object-fit: cover;
-        } */
+        }
+        
+        h3{
+            font-size: 3rem;
+        }
+
+        p{
+            font-size: 1.6rem;
+        }
     }
 }
 
