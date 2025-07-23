@@ -121,9 +121,9 @@ header {
         margin-bottom: 1rem;
     }
 
-    .projects-box {
+    .project-box {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+        grid-template-columns: repeat(3, 1fr);
         place-items: center;
         gap: 3rem;
         row-gap: 3rem;

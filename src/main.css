@@ -12067,9 +12067,9 @@ header nav a:hover, header nav a.active {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-.projects .projects-box {
+.projects .project-box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   place-items: center;
   gap: 3rem;
   row-gap: 3rem;
