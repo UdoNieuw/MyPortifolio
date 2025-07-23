@@ -12109,4 +12109,19 @@ header nav a:hover, header nav a.active {
 
 .footer {
   background-color: #161616;
+  padding: 50px 0;
+}
+.footer .footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer .footer-container p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.footer .footer-container .footer-social a {
+  color: #f5f5f5;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  transition: color 0.3;
 }/*# sourceMappingURL=main.css.map */
