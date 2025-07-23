@@ -49,11 +49,11 @@ header {
         margin-left: 4rem;
         font-weight: 500;
         transition: transform 0.3s ease, color 0.3s ease;
-        border-bottom: 3px solid transparent;
+        text-decoration: none;
 
         &:hover {
             color: $primary-color;
-            transform: scale(1.05);
+            border-bottom: 3px solid $primary-color;
         }
     }
 }

@@ -12010,11 +12010,11 @@ header nav a {
   margin-left: 4rem;
   font-weight: 500;
   transition: transform 0.3s ease, color 0.3s ease;
-  border-bottom: 3px solid transparent;
+  text-decoration: none;
 }
 header nav a:hover {
   color: #950606;
-  transform: scale(1.05);
+  border-bottom: 3px solid #950606;
 }
 
 .hero-content {
