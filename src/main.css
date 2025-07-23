@@ -12087,11 +12087,11 @@ header nav a:hover, header nav a.active {
   padding: 5rem 2rem;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 0 0 5px var(#950606);
-  transition: 0.3s ea;
+  box-shadow: 0 0 5px #950606;
+  transition: 0.3s ease;
 }
 .projects-content .project-card:hover {
-  box-shadow: 0 0 25px var(#950606), 0 0 50px var(#950606);
+  box-shadow: 0 0 25px #950606, 0 0 50px #950606;
   transform: scale(1.02);
 }
 .projects-content .project-card img {
