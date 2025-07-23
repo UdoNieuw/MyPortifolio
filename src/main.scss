@@ -5,6 +5,7 @@
 // Colors variables
 $primary-color: #950606;
 $background-color: #121212;
+$second-background-color: #161616;
 $text-color: #f5f5f5;
 
 //Reset
@@ -165,5 +166,10 @@ header {
             font-size: 1.6rem;
         }
     }
+}
+
+.footer{
+    background-color: $second-background-color;
+    
 }
 

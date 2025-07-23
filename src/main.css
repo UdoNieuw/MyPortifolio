@@ -12105,4 +12105,8 @@ header nav a:hover, header nav a.active {
 }
 .projects-content .project-card p {
   font-size: 1.6rem;
+}
+
+.footer {
+  background-color: #161616;
 }/*# sourceMappingURL=main.css.map */
