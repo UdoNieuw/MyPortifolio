@@ -12124,4 +12124,7 @@ header nav a:hover, header nav a.active {
   margin: 0 0.5rem;
   font-size: 1.5rem;
   transition: color 0.3;
+}
+.footer .footer-container .footer-social a:hover {
+  color: #950606;
 }/*# sourceMappingURL=main.css.map */
