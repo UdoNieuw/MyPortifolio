@@ -47,12 +47,21 @@ header {
         color: $primary-color;
         display: none;
     }
+
     .logo {
-        font-size: 1.8rem;
+        font-size: 3rem;
         color: $primary-color;
         text-decoration: none;
-        font-weight: bold;
+        font-weight: 800;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+            transition: scale(1.1);
+        }
     }
+
+
 
     nav a {
         font-size: 1.8rem;

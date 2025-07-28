@@ -12011,10 +12011,15 @@ header #menu-icon {
   display: none;
 }
 header .logo {
-  font-size: 1.8rem;
+  font-size: 3rem;
   color: #950606;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+header .logo:hover {
+  transition: scale(1.1);
 }
 header nav a {
   font-size: 1.8rem;
