@@ -61,14 +61,11 @@ header {
             transition: scale(1.1);
         }
         span{
-            background: linear-gradient(270deg, #950606 10%, red 100%);;
+            background: linear-gradient(270deg, #950606 10%, red 100%);
             background-clip: text;
             color: transparent;
         }
     }
-
-
-
 
     nav a {
         font-size: 1.8rem;
@@ -82,6 +79,17 @@ header {
             color: $primary-color;
             border-bottom: 3px solid $primary-color;
         }
+    }
+
+    .gradient-btn{
+        font-size: 1.8rem;
+        padding: 1rem 2rem;
+        border-radius: 3rem;
+        background: linear-gradient(270deg, #950606 10%, red 100%);
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        color: white;
     }
 }
 
