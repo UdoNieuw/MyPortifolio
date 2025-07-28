@@ -11985,7 +11985,7 @@ html {
 }
 
 body {
-  background-color: #121212;
+  background: #121212;
   color: #f5f5f5;
   font-family: "Poppins", sans-serif;
   line-height: 1.6;
@@ -11993,9 +11993,8 @@ body {
 
 header {
   position: fixed;
-  width: 100%;
   top: 0;
-  left: 0;
+  width: 100%;
   padding: 2rem 15%;
   background: rgba(0, 0, 0, 0.3);
   -webkit-backdrop-filter: blur(10px);
@@ -12012,19 +12011,19 @@ header #menu-icon {
 }
 header .logo {
   font-size: 3rem;
+  font-weight: 800;
   color: #950606;
   text-decoration: none;
-  font-weight: 800;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 header .logo:hover {
-  transition: scale(1.1);
+  transform: scale(1.1);
 }
 header .logo span {
   background: linear-gradient(270deg, #950606 10%, red 100%);
+  background-clip: text;
   -webkit-background-clip: text;
-          background-clip: text;
   color: transparent;
 }
 header nav a {
@@ -12032,22 +12031,23 @@ header nav a {
   color: #f5f5f5;
   margin-left: 4rem;
   font-weight: 500;
-  transition: transform 0.3s ease, color 0.3s ease;
   text-decoration: none;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
 }
 header nav a:hover {
   color: #950606;
-  border-bottom: 3px solid #950606;
+  border-color: #950606;
 }
 header .gradient-btn {
   font-size: 1.8rem;
   padding: 1rem 2rem;
   border-radius: 3rem;
   background: linear-gradient(270deg, #950606 10%, red 100%);
-  letter-spacing: 1px;
+  color: white;
   cursor: pointer;
   transition: 0.3s ease-in-out;
-  color: white;
+  letter-spacing: 1px;
 }
 
 .hero-content {
@@ -12056,7 +12056,6 @@ header .gradient-btn {
 }
 .hero-content h3, .hero-content .h3 {
   font-size: 1.5rem;
-  color: #f5f5f5;
 }
 .hero-content h1, .hero-content .h1 {
   font-size: 3rem;
@@ -12099,8 +12098,8 @@ header .gradient-btn {
   text-align: center;
 }
 .projects h2, .projects .h2 {
-  color: #950606;
   font-size: 2rem;
+  color: #950606;
   margin-bottom: 1rem;
 }
 .projects .project-box {
@@ -12108,36 +12107,20 @@ header .gradient-btn {
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
   gap: 3rem;
-  row-gap: 3rem;
 }
 .projects .project-card {
-  background-color: #121212;
+  background: #121212;
   border: 2px solid #950606;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  border-radius: 3rem;
   gap: 2rem;
   padding: 5rem 2rem;
-  overflow: hidden;
+  border-radius: 3rem;
+  text-align: center;
   cursor: pointer;
   box-shadow: 0 0 5px #950606;
   transition: 0.3s ease;
-}
-.projects .project-card .btn {
-  display: inline-block;
-  background-color: #950606;
-  color: #f5f5f5;
-  padding: 0.8rem 2rem;
-  border-radius: 0.8rem;
-  text-decoration: none;
-  font-weight: 500;
-  transition: background 0.3s ease;
-}
-.projects .project-card .btn:hover {
-  background-color: rgb(99.9741935484, 4.0258064516, 4.0258064516);
 }
 .projects .project-card:hover {
   box-shadow: 0 0 25px #950606, 0 0 50px #950606;
@@ -12155,9 +12138,22 @@ header .gradient-btn {
 .projects .project-card p {
   font-size: 1.6rem;
 }
+.projects .project-card .btn {
+  display: inline-block;
+  background: #950606;
+  color: #f5f5f5;
+  padding: 0.8rem 2rem;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+.projects .project-card .btn:hover {
+  background: rgb(99.9741935484, 4.0258064516, 4.0258064516);
+}
 
 .footer {
-  background-color: #161616;
+  background: #161616;
   padding: 50px 0;
 }
 .footer .footer-container {
@@ -12172,7 +12168,7 @@ header .gradient-btn {
   color: #f5f5f5;
   margin: 0 0.5rem;
   font-size: 1.5rem;
-  transition: color 0.3;
+  transition: 0.3s;
 }
 .footer .footer-container .footer-social a:hover {
   color: #950606;
