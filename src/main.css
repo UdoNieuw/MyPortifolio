@@ -12002,6 +12002,13 @@ header {
           backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+header #menu-icon {
+  font-size: 3.5rem;
+  color: #950606;
+  display: none;
 }
 header .logo {
   font-size: 1.8rem;
