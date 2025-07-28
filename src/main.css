@@ -12040,37 +12040,38 @@ header nav a:hover {
   border-color: #950606;
 }
 
-.hero-content {
-  padding: 4rem 2rem;
-  text-align: center;
+.home-content {
+  min-height: 100vh;
+  padding: 10rem 15%;
+  text-align: left;
 }
-.hero-content h3, .hero-content .h3 {
-  font-size: 1.5rem;
+.home-content h3, .home-content .h3 {
+  font-size: 2rem;
 }
-.hero-content h1, .hero-content .h1 {
+.home-content h1, .home-content .h1 {
   font-size: 3rem;
   color: #950606;
 }
-.hero-content span {
+.home-content span {
   color: #950606;
   font-weight: bold;
 }
-.hero-content p {
+.home-content p {
   margin-top: 1rem;
   color: #ccc;
 }
-.hero-content .social-icons {
+.home-content .social-icons {
   margin: 1rem 0;
 }
-.hero-content .social-icons a {
+.home-content .social-icons a {
   color: #f5f5f5;
   font-size: 1.5rem;
   margin: 0 0.5rem;
 }
-.hero-content .social-icons a:hover {
+.home-content .social-icons a:hover {
   color: #950606;
 }
-.hero-content .btn {
+.home-content .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   background: #950606;
@@ -12079,7 +12080,7 @@ header nav a:hover {
   text-decoration: none;
   transition: background 0.3s;
 }
-.hero-content .btn:hover {
+.home-content .btn:hover {
   background: rgb(99.9741935484, 4.0258064516, 4.0258064516);
 }
 

@@ -80,13 +80,14 @@ header {
   }
 }
 
-// Hero Section
-.hero-content {
-  padding: 4rem 2rem;
-  text-align: center;
+// Home Section
+.home-content {
+    min-height: 100vh;
+  padding: 10rem 15%;
+  text-align: left;
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   h1 {
