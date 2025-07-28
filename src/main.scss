@@ -29,6 +29,7 @@ body {
 header {
   position: fixed;
   top: 0;
+  width: 100%;
   padding: 2rem 15%;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
@@ -64,9 +65,9 @@ header {
   }
 
   nav a {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: $text-color;
-    margin-left: 4rem;
+    margin-left: 2rem;
     font-weight: 500;
     text-decoration: none;
     border-bottom: 3px solid transparent;
@@ -76,17 +77,6 @@ header {
       color: $primary-color;
       border-color: $primary-color;
     }
-  }
-
-  .gradient-btn {
-    font-size: 1.8rem;
-    padding: 1rem 2rem;
-    border-radius: 3rem;
-    background: $cool-gradient;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-    letter-spacing: 1px;
   }
 }
 
